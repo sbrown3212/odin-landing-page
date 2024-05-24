@@ -13,6 +13,7 @@
 .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -20,12 +21,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 0;
+}
+
+.banner {
+    display: flex;
+    gap: 24px;
+    padding: 96px 0;
+}
+
+.banner>* {
+    flex: 1;
+}
+
+.banner button {
+    margin-top: 16px;
 }
 
 .links ul {
     display: flex;
     gap: 24px;
+    justify-content: flex-end;
 }
 
 .banner p,
@@ -43,6 +59,7 @@
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    /* margin-right: auto; */
 }
 
 .main,
@@ -64,13 +81,13 @@
     background-color: #3882F6;
 }
 
-.width {
-    width: 900px;
-}
-
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    padding: 8px 36px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
 }
 
 a {
@@ -78,9 +95,15 @@ a {
 }
 
 ul {
-        list-style: none;
+    list-style: none;
 }
 
 .width {
     width: 1000px;
+}
+
+img {
+    background-color: #596474;
+    text-align: center;
+
 }
