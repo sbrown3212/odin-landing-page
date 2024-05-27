@@ -27,6 +27,8 @@ img {
     text-align: center;
 }
 
+
+/* --------------- Header --------------- */
 .header,
 .footer {
     background-color: #1F2937;
@@ -95,6 +97,8 @@ img {
     color: #F9FAF8;
 }
 
+
+/* --------------- Main --------------- */
 .main,
 .sign-up {
     background-color: #FFFFFF;
@@ -156,7 +160,7 @@ img {
 }
 
 
-
+/* --------------- Quote --------------- */
 .quote {
     background-color: #E5E7EB;
     display: flex;
@@ -186,7 +190,7 @@ img {
 }
 
 
-
+/* --------------- Sign-up --------------- */
 .sign-up {
     display: flex;
     align-items: center;
@@ -215,7 +219,7 @@ img {
 }
 
 
-
+/* --------------- Footer --------------- */
 .footer p {
     display: flex;
     align-items: center;
