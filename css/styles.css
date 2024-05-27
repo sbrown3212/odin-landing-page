@@ -11,23 +11,34 @@
 }
 
 .header {
+    padding-bottom: 48px;
+}
+
+.nav-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.links {
+.nav {
+    flex: 0 1 900px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 0;
+    padding: 16px 16px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner {
+    flex: 0 1 900px;
     display: flex;
     gap: 24px;
-    padding: 96px 0;
+    padding: 96px 16px;
 }
 
 .banner>* {
@@ -38,16 +49,17 @@
     margin-top: 16px;
 }
 
-.links ul {
+.nav ul {
     display: flex;
     gap: 24px;
     justify-content: flex-end;
 }
 
 .banner p,
-.links a {
+.nav a {
     font-size: 18px;
-    color: #E5E7EB;
+    /* color: #E5E7EB; */
+    color: #acb2bc;
 }
 
 .banner h1 {
@@ -59,7 +71,6 @@
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    /* margin-right: auto; */
 }
 
 .main,
@@ -67,11 +78,57 @@
     background-color: #FFFFFF;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > .container {
+    flex: 0 1 900px;
+    padding: 16px;
+    justify-content: center;
+}
+
 .main h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 16px;
 }
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-bottom: 96px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.card > p {
+    width: 150px;
+    text-align: center;
+}
+
 
 .quote {
     background-color: #E5E7EB;
@@ -96,10 +153,6 @@ a {
 
 ul {
     list-style: none;
-}
-
-.width {
-    width: 1000px;
 }
 
 img {
