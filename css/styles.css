@@ -130,9 +130,35 @@
 }
 
 
+
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote .author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 36px;
+}
+
+.quote > .container {
+    flex: 0 1 900px;
+    padding: 120px 56px;
+}
+
 
 .sign-up .container {
     background-color: #3882F6;
