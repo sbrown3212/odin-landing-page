@@ -5,6 +5,28 @@
     font-family: roboto;
 }
 
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 36px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    background-color: #596474;
+    text-align: center;
+}
+
 .header,
 .footer {
     background-color: #1F2937;
@@ -58,8 +80,8 @@
 .banner p,
 .nav a {
     font-size: 18px;
-    /* color: #E5E7EB; */
-    color: #acb2bc;
+    /* color: #E5E7EB; color specified by TOP */
+    color: #acb2bc; /* matches better to the image provided by TOP */
 }
 
 .banner h1 {
@@ -99,6 +121,10 @@
     align-items: center;
     padding: 24px;
     margin-bottom: 16px;
+}
+
+.main p {
+    color: #1F2937;
 }
 
 .card-container {
@@ -160,29 +186,40 @@
 }
 
 
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
 .sign-up .container {
     background-color: #3882F6;
-}
-
-button {
-    color: #F9FAF8;
-    background-color: #3882F6;
-    padding: 8px 36px;
-    font-size: 20px;
+    flex: 0 1 900px;
+    margin: 96px;
+    padding: 48px 96px;
     border-radius: 8px;
-    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
+.sign-up button {
+    border: 2px solid #F9FAF8;
 }
 
-ul {
-    list-style: none;
+.sign-up p {
+    color: #E5E7EB; /* color specified by TOP */
+    /* color: #acb2bc; matches better to the image provided by TOP */
 }
 
-img {
-    background-color: #596474;
-    text-align: center;
 
+
+.footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB; /* color specified by TOP */
+    padding: 36px;
 }
